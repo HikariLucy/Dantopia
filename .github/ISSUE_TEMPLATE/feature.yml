@@ -1,0 +1,26 @@
+name: Feature / tarea técnica
+description: Planificar una modificación trazable
+title: "[P#] "
+labels: []
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qué problema soluciona y en qué fase
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Condiciones verificables y prueba humana si corresponde
+    validations:
+      required: true
+  - type: textarea
+    id: validacion
+    attributes:
+      label: Pruebas y plataformas
+      description: Desktop/Web/Android y evidencias previstas
+    validations:
+      required: false

@@ -1,0 +1,25 @@
+name: Defecto / regresión
+description: Reportar un error reproducible
+title: "[BUG] "
+labels: []
+body:
+  - type: textarea
+    id: reproduccion
+    attributes:
+      label: Pasos para reproducir
+      description: Versión/commit, modo, plataforma y secuencia exacta
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Esperado vs. observado
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Capturas/logs sin datos personales
+    validations:
+      required: false

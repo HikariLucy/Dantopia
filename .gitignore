@@ -1,0 +1,29 @@
+# Godot 4 — caché importado/generado; conservar assets originales
+.godot/
+*.translation
+# Exportaciones y builds locales
+build/
+dist/
+exports/
+*.apk
+*.aab
+*.pck
+*.exe
+# Claves de firma y secretos: nunca versionar
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.env
+.env.*
+!.env.example
+# Archivos locales del sistema/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+# Logs temporales
+*.log
+tmp/
