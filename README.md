@@ -2,7 +2,7 @@
 
 **Dantopia** es una aventura 2D de pixel art protagonizada por Dante Pixel. Este repositorio contiene la **reconstrucción en Godot** del videojuego original desarrollado con Python/Pygame.
 
-> **Estado (2026-10-13): P0 — Fundación en preparación.** El port completo **no ha comenzado**. La aventura original sigue desarrollándose en [HikariLucy/FlappyDan](https://github.com/HikariLucy/FlappyDan). No confundir documentación o prototipos con funcionalidades terminadas.
+> **Estado (2026-10-13):** planificación Godot en preparación; F3.4 y Roguelite M0–B0 implementados y respaldados en ramas separadas del Legacy, pendientes de integración y revisión humana. El port completo **no ha comenzado**. La aventura original sigue desarrollándose en [HikariLucy/FlappyDan](https://github.com/HikariLucy/FlappyDan). No confundir documentación o prototipos con funcionalidades terminadas.
 
 ## Qué queremos construir
 
@@ -36,7 +36,8 @@ La escena final de Arcade conduce a Dante a la cama; **un eventual metroidvania 
 
 ## Documentación
 
-- [ROADMAP.md](ROADMAP.md) — plan maestro P0–P17, hitos y criterios de aceptación.
+- [ROADMAP.md](ROADMAP.md#k-tablero-vivo-canonico--fuente-unica-de-tareas) — **fuente única de verdad de tareas**, checks, subhitos y estado actual (producto Legacy + Godot), además del plan P0–P17.
+- [Resumen ejecutivo](docs/RESUMEN_EJECUTIVO.md) — estado, prioridades y siguiente paso; no es un backlog separado.
 - [GAME_DESIGN.md](docs/GAME_DESIGN.md) — visión y reglas de los tres modos.
 - [ARCHITECTURE.md](docs/ARCHITECTURE.md) — diseño técnico inicial.
 - [MIGRATION_GATES.md](docs/MIGRATION_GATES.md) — puertas formales para migrar.
